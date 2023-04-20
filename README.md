@@ -1,4 +1,4 @@
-**Rapport**
+**DiaApp (App About Diabetes)**
 # Rubrik
 ```
 Kod
