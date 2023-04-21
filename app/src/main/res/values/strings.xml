@@ -1,3 +1,17 @@
 <resources>
+    ///DIA-APP NAME
     <string name="app_name">DiaApp</string>
+
+    ///DIA-COUNT
+    <string name="dia_count">DiaCount</string>
+    <string name="Fruits">Fruits/berries</string>
+    <string name="Vegetables">Vegetables</string>
+    <string name="Calories">Potato,Pasta,rice</string>
+    <string name="Jam">Jam, gelé, chutney</string>
+    <string name="Toppings">Toppings</string>
+    <string name="Snacks">Snacks</string>
+    <string name="Baking">Baking</string>
+    <string name="Bread">Bread</string>
+    <string name="Drinks">Drinks</string>
+
 </resources>
