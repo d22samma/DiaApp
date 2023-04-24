@@ -1,7 +1,9 @@
 <resources>
     ///DIA-APP NAME
     <string name="app_name">DiaApp</string>
-
+    /// MainPage
+    <string name="main_fact">FACTS</string>
+    <string name="main_game">GAME</string>
     ///FACTS
 
     ///GAME
