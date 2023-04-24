@@ -26,6 +26,10 @@
     <string name="type2_btn4">Btn4</string>
     <string name="type2_btn5">Btn5</string>
 
+    ///ResponsePage
+    <string name="resp_title">Collect Subject</string>
+    <string name="resp_info">Collect Intent</string>
+    <string name="Piccaption">DiaPicture</string>
 
     ///GAME
 
