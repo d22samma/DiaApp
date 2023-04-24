@@ -22,15 +22,23 @@
             android:exported="false" />
         <activity
             android:name=".ResponsiveFacts"
+            android:parentActivityName=".Type1"
+            android:exported="false" />
+        <activity
+            android:name=".ResponsiveFacts2"
+            android:parentActivityName=".Type2"
             android:exported="false" />
         <activity
             android:name=".Type2"
+            android:parentActivityName=".Facts"
             android:exported="false" />
         <activity
             android:name=".Type1"
+            android:parentActivityName=".Facts"
             android:exported="false" />
         <activity
             android:name=".Facts"
+            android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
