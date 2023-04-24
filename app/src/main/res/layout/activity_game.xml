@@ -8,11 +8,11 @@
     tools:context=".GAME">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/game_pic"
         android:layout_width="350dp"
         android:layout_height="250dp"
         android:contentDescription="@string/game_piccaption"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/game_alt1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,29 +20,29 @@
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/game_alt1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/game_alt1"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/game_alt2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/game_pic" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/game_alt2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/game_alt2"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintBottom_toTopOf="@+id/game_alt3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/game_alt1" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/game_alt3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/game_alt3"
@@ -50,7 +50,7 @@
         app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/game_alt2" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/bottomNavigationView"
@@ -62,22 +62,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/button4">
+        app:layout_constraintTop_toBottomOf="@id/game_alt3">
 
         <Button
-            android:id="@+id/button10"
+            android:id="@+id/game_cancel"
             android:layout_width="wrap_content"
             android:layout_height="68dp"
             android:text="@string/game_cancel"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/button11"
+            app:layout_constraintEnd_toStartOf="@+id/game_rules"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/button11"
+            android:id="@+id/game_rules"
             android:layout_width="wrap_content"
             android:layout_height="68dp"
             android:text="@string/game_rules"
@@ -85,7 +85,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/button10"
+            app:layout_constraintStart_toEndOf="@+id/game_cancel"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
