@@ -12,6 +12,9 @@
         android:theme="@style/Theme.DiaApp"
         tools:targetApi="31">
         <activity
+            android:name=".GAME"
+            android:exported="false" />
+        <activity
             android:name=".ResponsiveFacts"
             android:exported="false" />
         <activity
