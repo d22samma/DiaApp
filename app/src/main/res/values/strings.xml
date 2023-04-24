@@ -8,6 +8,15 @@
     <string name="facts_title">FACTS</string>
     <string name="facts_type1">TYPE 1</string>
     <string name="facts_type2">TYPE 2</string>
+    ///TYPE1
+    <string name="type1_title">TYPE 1</string>
+    <string name="type1_Desc"> collect data</string>
+    <string name="type1_btn">Btn</string>
+    <string name="type1_btn2">Btn2</string>
+    <string name="type1_btn3">Btn3</string>
+    <string name="type1_btn4">Btn4</string>
+    <string name="type1_btn5">Btn5</string>
+
     ///GAME
 
 </resources>
