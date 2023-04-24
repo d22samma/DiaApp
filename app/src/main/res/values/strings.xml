@@ -44,5 +44,8 @@
     <string name="gameover_text2">OVER</string>
     <string name="gameover_btn">CONTINUE</string>
 
-    //RULES
+    ///RULES
+    <string name="rules_title">Rules  GameDescription</string>
+    <string name="rules_rules">-1, -2, -3,-4</string>
+
 </resources>
