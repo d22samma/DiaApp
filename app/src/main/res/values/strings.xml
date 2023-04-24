@@ -5,7 +5,9 @@
     <string name="main_fact">FACTS</string>
     <string name="main_game">GAME</string>
     ///FACTS
-
+    <string name="facts_title">FACTS</string>
+    <string name="facts_type1">TYPE 1</string>
+    <string name="facts_type2">TYPE 2</string>
     ///GAME
 
 </resources>
