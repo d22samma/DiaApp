@@ -32,12 +32,17 @@
     <string name="Piccaption">DiaPicture</string>
 
     ///GAME
+    <string name="game_piccaption">GameScreen</string>
+    <string name="game_alt1">Choice-Data</string>
+    <string name="game_alt2">Choice2-Data</string>
+    <string name="game_alt3">Choice3-Data</string>
+    <string name="game_cancel">Cancel</string>
+    <string name="game_rules">Rules</string>
+
+    ///GAMEOVER
     <string name="gameover_text1">GAME</string>
     <string name="gameover_text2">OVER</string>
     <string name="gameover_btn">CONTINUE</string>
 
-
-    ///GAMEOVER
-
-
+    //RULES
 </resources>
