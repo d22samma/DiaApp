@@ -32,5 +32,12 @@
     <string name="Piccaption">DiaPicture</string>
 
     ///GAME
+    <string name="gameover_text1">GAME</string>
+    <string name="gameover_text2">OVER</string>
+    <string name="gameover_btn">CONTINUE</string>
+
+
+    ///GAMEOVER
+
 
 </resources>
