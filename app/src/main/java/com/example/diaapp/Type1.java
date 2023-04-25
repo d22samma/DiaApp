@@ -16,30 +16,40 @@ public class Type1 extends AppCompatActivity {
         Button btn1 = findViewById(R.id.type2_btn);
         btn1.setOnClickListener(view -> {
             Intent intent = new Intent(Type1.this, ResponsiveFacts.class);
+            intent.putExtra("Title1", "Titletext one"); //Title
+            intent.putExtra("Desc1", "Welcome one"); // Desc
             startActivity(intent);
         });
 
         Button btn2 = findViewById(R.id.type2_btn2);
         btn2.setOnClickListener(view -> {
             Intent intent = new Intent(Type1.this, ResponsiveFacts.class);
+            intent.putExtra("Title1", "Titletext two"); //Title
+            intent.putExtra("Desc1", "Welcome two"); // Desc
             startActivity(intent);
         });
 
         Button btn3 = findViewById(R.id.type2_btn3);
         btn3.setOnClickListener(view -> {
             Intent intent = new Intent(Type1.this, ResponsiveFacts.class);
+            intent.putExtra("Title1", "Titletext three"); //Title
+            intent.putExtra("Desc1", "Welcome three"); // Desc
             startActivity(intent);
         });
 
         Button btn4 = findViewById(R.id.type2_btn4);
         btn4.setOnClickListener(view -> {
             Intent intent = new Intent(Type1.this, ResponsiveFacts.class);
+            intent.putExtra("Title1", "Titletext four"); //Title
+            intent.putExtra("Desc1", "Welcome four"); // Desc
             startActivity(intent);
         });
 
         Button btn5 = findViewById(R.id.type2_btn5);
         btn5.setOnClickListener(view -> {
             Intent intent = new Intent(Type1.this, ResponsiveFacts.class);
+            intent.putExtra("Title1", "Titletext five"); //Title
+            intent.putExtra("Desc1", "Welcome five"); // Desc
             startActivity(intent);
         });
     }
