@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class Type1 extends AppCompatActivity {
 
@@ -12,6 +13,24 @@ public class Type1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_type1);
+
+
+        TextView collectvalues = (TextView) findViewById(R.id.type1_title);
+        TextView collectvals = (TextView) findViewById(R.id.type2_desc);
+
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            String Titles = extras.getString("Titles");
+            String Descs = extras.getString("Descs");
+
+            collectvalues.setText(Titles);
+            collectvals.setText(Descs);
+        }
+
+
+
+
+
 
         Button btn1 = findViewById(R.id.type2_btn);
         btn1.setOnClickListener(view -> {
