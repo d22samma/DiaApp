@@ -12,17 +12,20 @@
         android:theme="@style/Theme.DiaApp"
         tools:targetApi="31" >
         <activity
-            android:name=".Type2"
-            android:parentActivityName=".Facts"
+            android:name=".ResponsiveFacts2"
             android:exported="false" />
+        <activity
+            android:name=".Type2"
+            android:exported="false"
+            android:parentActivityName=".Facts" />
         <activity
             android:name=".Rules"
-            android:parentActivityName=".GAME"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".GAME" />
         <activity
             android:name=".GameGameover"
-            android:parentActivityName=".MainActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".GAME"
             android:exported="false" />
@@ -30,10 +33,6 @@
             android:name=".ResponsiveFacts"
             android:exported="false"
             android:parentActivityName=".Type1" />
-        <activity
-            android:name=".ResponsiveFacts2"
-            android:exported="false"
-            android:parentActivityName=".Type2" />
         <activity
             android:name=".Type1"
             android:exported="false"

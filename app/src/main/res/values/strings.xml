@@ -31,6 +31,11 @@
     <string name="resp_info">Collect Intent</string>
     <string name="Piccaption">DiaPicture</string>
 
+    ///ResponsePage2
+    <string name="resp_title2">Collect Subject</string>
+    <string name="resp_info2">Collect Intent</string>
+    <string name="Piccaption2">DiaPicture</string>
+
     ///GAME
     <string name="game_piccaption">GameScreen</string>
     <string name="game_alt1">Choice-Data</string>

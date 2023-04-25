@@ -5,42 +5,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/Background"
-
-    tools:context=".ResponsiveFacts">
+    tools:context=".ResponsiveFacts2">
 
     <TextView
         android:id="@+id/resp_title2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/resp_title"
+        android:text="@string/resp_title2"
         android:textSize="48sp"
-        app:layout_constraintBottom_toTopOf="@+id/resp_desc"
+        app:layout_constraintBottom_toTopOf="@+id/resp_desc2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/resp_desc"
+        android:id="@+id/resp_desc2"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="@string/resp_info"
+        android:text="@string/resp_info2"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/resp_pic"
+        app:layout_constraintBottom_toTopOf="@+id/resp_pic2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resp_title2" />
 
     <ImageView
-        android:id="@+id/resp_pic"
+        android:id="@+id/resp_pic2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/Piccaption"
+        android:contentDescription="@string/Piccaption2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/resp_desc"
+        app:layout_constraintTop_toBottomOf="@+id/resp_desc2"
         tools:srcCompat="@tools:sample/avatars" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
